@@ -1,4 +1,20 @@
-# Team12_Small-Molecule-Solubility-Prediction
-This repository is created for CHE1147 team 12 Machine Learning project, small molecule solubility prediction. The main project objective is to develop a ML model capable of producing accurate predictions on a small molecule's solubility in different solvents and under different temperatures. The small molecule chosed in this project was flutamide, and three ML regression models were developed and trained to predict flutamide solubility in various binary organic solvents under different temperatures. A linear regression model served as the baseline, and one random forest and XGBoost models were used as the actual production models. 
+# CHE1147 Team 12: Small Molecule Solubility Prediction
 
-The raw solubility data used for ML model training was extracted from "chemixhub" (Github link: https://github.com/chemcognition-lab/chemixhub/tree/main/datasets/drug-solubility/processed_data). Two python files were used in this project, "EDA_Main_v5" and "ML_Main_v1". The flutamide solubility measurements were pulled and preprocessed in "EDA_Main_v5", where the distribution of raw data was examined. The training, testing, tunning, and evaluations of the three ML were conducted in "ML_Main_v1". A 'requirements.txt' is included in the main page to facilitate environment replication for running this project. 
+This repository is created for CHE1147 Team 12 Machine Learning project on **small molecule solubility prediction**. 
+
+## Project Objective
+The main project objective is to develop ML models capable of predicting a small molecule's solubility in different solvents and under various temperatures. The small molecule chosen for this project is **flutamide**. Three regression models were developed:
+- Linear Regression (baseline)
+- Random Forest
+- XGBoost
+
+## Data Source
+Raw solubility data was extracted from [chemixhub](https://github.com/chemcognition-lab/chemixhub/tree/main/datasets/drug-solubility/processed_data).
+
+## Notebook Files
+1. **EDA_Main_v5.ipynb** – Pulls and preprocesses flutamide solubility measurements and examines the distribution of raw data.
+2. **ML_Main_v1.ipynb** – Performs training, testing, tuning, and evaluation of the three ML models.
+
+## Environment
+A `requirements.txt` is included to facilitate environment replication for running this project.
+
